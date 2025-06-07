@@ -1,0 +1,24 @@
+sources:
+  - name: erp
+    description: Sistema da AdventureWorks
+    schema: RAW_ADVENTURE_WORKS
+    database: FEA24_11
+    tables:
+      - name: SALESORDERHEADER
+      - name: SALESORDERDETAIL
+      - name: PRODUCT
+      - name: PRODUCTSUBCATEGORY
+      - name: PRODUCTCATEGORY
+      - name: CUSTOMER
+      - name: PERSON
+      - name: SALESTERRITORY
+      - name: SALESREASON
+      - name: CREDITCARD
+      - name: SALESORDERHEADERSALESREASON
+      - name: ADDRESS
+      - name: STATEPROVINCE
+      - name: COUNTRYREGION
+
+
+
+
