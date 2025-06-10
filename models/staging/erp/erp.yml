@@ -4,21 +4,21 @@ sources:
     schema: RAW_ADVENTURE_WORKS
     database: FEA24_11
     tables:
-      - name: SALESORDERHEADER
-      - name: SALESORDERDETAIL
       - name: PRODUCT
+        columns:
+          - name: PRODUCTID
+              - unique
+              - not_null
       - name: PRODUCTSUBCATEGORY
+        columns:
+          - name: PRODUCTSUBCATEGORYID
+              - unique
+              - not_null
       - name: PRODUCTCATEGORY
-      - name: CUSTOMER
-      - name: PERSON
-      - name: SALESTERRITORY
-      - name: SALESREASON
-      - name: CREDITCARD
-      - name: SALESORDERHEADERSALESREASON
-      - name: ADDRESS
-      - name: STATEPROVINCE
-      - name: COUNTRYREGION
-
+        columns:
+          - name: PRODUCTCATEGORYID
+              - unique
+              - not_null
 
 
 
