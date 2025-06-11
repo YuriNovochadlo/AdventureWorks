@@ -1,0 +1,18 @@
+models:
+  - name: dim_clientes
+    description: Dimensão de clientes do sistema ERP da Adventure Works.
+    columns:
+      - name: PK_ID_CLIENTE
+        description: Primary key do cliente.
+        data_tests:
+          - unique
+          - not_null
+               
+      - name: FK_ID_LOJA
+        description: Foreign key da loja.
+        
+      - name: FK_ID_TERRITORIO
+        description: Foreign key do territorio.
+        
+      - name: NOME_COMPLETO
+        description: nome completo do cliente.

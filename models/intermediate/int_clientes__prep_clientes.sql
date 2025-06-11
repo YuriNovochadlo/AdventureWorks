@@ -11,7 +11,6 @@ with clientes as (
 , enriquecer_clientes as (
     select
         clientes.PK_ID_CLIENTE
-        ,clientes.FK_ID_PESSOA
         ,clientes.FK_ID_LOJA
         ,clientes.FK_ID_TERRITORIO
         ,TRIM(
