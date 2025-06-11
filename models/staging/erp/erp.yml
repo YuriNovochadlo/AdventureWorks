@@ -47,4 +47,15 @@ sources:
           - name: COUNTRYREGIONCODE
               - unique
               - not_null
+              
+      - name: SALESREASON
+        columns:
+          - name: SALESREASONID
+              - unique
+              - not_null
 
+      - name: SALESORDERHEADERSALESREASON
+        columns:
+          - name: SALESORDERID
+              - unique
+              - not_null
