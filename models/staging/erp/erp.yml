@@ -19,6 +19,16 @@ sources:
           - name: PRODUCTCATEGORYID
               - unique
               - not_null
+      - name: CUSTOMER
+        columns:
+          - name: CUSTOMERID
+              - unique
+              - not_null
 
+      - name: PERSON
+        columns:
+          - name: BUSINESSENTITYID
+              - unique
+              - not_null
 
 
