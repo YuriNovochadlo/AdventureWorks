@@ -30,5 +30,21 @@ sources:
           - name: BUSINESSENTITYID
               - unique
               - not_null
+      - name: ADDRESS
+        columns:
+          - name: ADDRESSID
+              - unique
+              - not_null
 
+      - name: STATEPROVINCE
+        columns:
+          - name: STATEPROVINCEID
+              - unique
+              - not_null
+
+      - name: COUNTRYREGION
+        columns:
+          - name: COUNTRYREGIONCODE
+              - unique
+              - not_null
 
