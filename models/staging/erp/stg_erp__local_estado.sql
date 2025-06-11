@@ -8,6 +8,7 @@ with estado as (
         ,cast(territoryid as int) as fk_id_territorio
         ,cast(name as string) as nome_estado
         ,cast(stateprovincecode as string) as sigla_estado
+        ,cast(COUNTRYREGIONCODE as string) as sigla_pais
     from estado
 )
 select * from renomeado
