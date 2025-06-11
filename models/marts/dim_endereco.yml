@@ -1,0 +1,33 @@
+models:
+  - name: dim_endereco
+    description: Modelo enriquece os dados de endereço com estado e país.
+    columns:
+      - name: PK_ID_ENDERECO
+        description: Primary key de endereco.
+        data_tests:
+          - unique
+          - not_null
+                  
+      - name: FK_ID_TERRITORIO
+        description: Foreing key de territorio para a tabela SalesTerritory.
+        
+      - name: ENDERECO
+        description: Rua do local e número.
+        
+      - name: CIDADE
+        description: Cidade do local.
+        
+      - name: CODIGO_PORTAL
+        description: CEP.
+        
+      - name: NOME_ESTADO
+        description: Nome do estado / provincia.
+        
+      - name: SIGLA_ESTADO
+        description: Sigla do estado.
+        
+      - name: NOME_PAIS
+        description: Nome do país.
+
+      - name: SIGLA_PAIS
+        description: Sigla do país.        
