@@ -16,7 +16,6 @@ with endereco as (
 , enriquecer_endereco as (
     Select
     endereco.PK_ID_ENDERECO
-    ,endereco.FK_ID_ESTADO
     ,estado.FK_ID_TERRITORIO
     ,endereco.ENDERECO
     ,endereco.CIDADE
