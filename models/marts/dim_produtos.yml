@@ -1,0 +1,31 @@
+models:
+  - name: dim_produtos
+    description: Dimensão de produtos do sistema ERP da Adventure Works.
+    columns:
+      - name: PK_ID_PRODUTO
+        description: Primary key de produto.
+        data_tests:
+          - unique
+          - not_null
+                  
+      - name: NOME_PRODUTO
+        description: Nome do produto.
+        
+      - name: COR_PRODUTO
+        description: cor do produto.
+        
+      - name: TAMANHO_PRODUTO
+        description: tamanho do produto.
+        
+      - name: PESO_PRODUTO
+        description: peso do produto.
+        
+      - name: VALOR_PRODUTO
+        description: valor da unidade do produto.
+        
+      - name: NOME_SUBCATEGORIA
+        description: grupo da subcategoria.
+        
+      - name: NOME_CATEGORIA
+        description: grupo da categoria.
+        
