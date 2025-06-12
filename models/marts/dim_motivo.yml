@@ -1,0 +1,12 @@
+models:
+  - name: dim_motivo
+    description: Dimensão de motivos da venda do sistema ERP da Adventure Works.
+    columns:
+      - name: FK_ID_PEDIDO
+        description: Foreign key do pedido.
+               
+      - name: DESCRICAO_MOTIVO_VENDA
+        description: Descrição do motivo de venda.
+        
+      - name: TIPO_MOTIVO_VENDA
+        description: Grupo do motivo da venda.
