@@ -1,0 +1,12 @@
+models:
+  - name: int_cartao__prep_cartaocredito
+    description: Modelo enriquece os dados de endereço com estado e país.
+    columns:
+      - name: PK_ID_CARTAO_DE_CREDITO
+        description: Primary key de cartão de credito.
+        data_tests:
+          - unique
+          - not_null
+                  
+      - name: TIPO_CARTAO_DE_CREDITO
+        description: qual a bandeira do cartão de credito.

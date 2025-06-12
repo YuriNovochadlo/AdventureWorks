@@ -56,3 +56,8 @@ sources:
 
       - name: SALESORDERHEADERSALESREASON
 
+      - name: CREDITCARD
+        columns:
+          - name: CREDITCARDID
+              - unique
+              - not_null 
