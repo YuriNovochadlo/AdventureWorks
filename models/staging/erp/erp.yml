@@ -55,7 +55,4 @@ sources:
               - not_null
 
       - name: SALESORDERHEADERSALESREASON
-        columns:
-          - name: SALESORDERID
-              - unique
-              - not_null
+
