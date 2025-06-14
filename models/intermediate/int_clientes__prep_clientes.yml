@@ -1,5 +1,5 @@
 models:
-  - name: int_clientes__prep_clientes
+  - name: int_clientes_prep_clientes
     description: Dimensão de clientes do sistema ERP da Adventure Works.
     columns:
       - name: PK_ID_CLIENTE
