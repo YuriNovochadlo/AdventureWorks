@@ -1,0 +1,25 @@
+models:
+  - name: dim_calendario
+    description: Modelo para a tabela calendario.
+    columns:
+      - name: SK_CALENDARIO
+        description: Chave surrogada da tabela calendariodata formato yyyy - mm - dd.
+        data_tests:
+          - unique
+          - not_null
+      - name: DATA
+        description: Data formato yyyy - mm - dd.
+      - name: DIA
+        description: Dia do mês.                 
+      - name: SEMANA
+        description: Semana do ano.
+      - name: NUMERO_MES
+        description: Número que representa o Mês.
+      - name: NOME_MES
+        description: Nome do Mês por extenso.
+      - name: MES_ABREV
+        description: Nome do Mês abreviado
+      - name: TRIMESTE
+        description: Trimestre do ano.
+      - name: ANO
+        description: Ano da data.
