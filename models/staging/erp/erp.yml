@@ -61,3 +61,15 @@ sources:
           - name: CREDITCARDID
               - unique
               - not_null 
+      - name: SALESORDERHEADER
+        columns:
+          - name: salesorderid
+            data_tests:
+              - unique
+              - not_null
+              
+      - name: SALESORDERDETAIL
+        columns:
+          - name: SALESORDERDETAILID
+              - unique
+              - not_null

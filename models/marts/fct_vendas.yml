@@ -1,0 +1,58 @@
+models:
+  - name: fct_vendas
+    description: Modelo enriquece os dados de fato vendas.
+    columns:
+      - name: PK_ID_DETALHEPEDIDO
+        description: Primary key de produto com pedido.
+        data_tests:
+          - unique
+          - not_null
+                  
+      - name: FK_ID_PEDIDO
+        description: Chave estrangeira do ID pedido.
+        
+      - name: FK_ID_PRODUTO
+        description: Chave estrangeira do produto.
+        
+      - name: FK_ID_CLIENTE_PEDIDO
+        description: Chave estrangeira do cliente.
+        
+      - name: FK_ID_LOCALIZACAO_PEDIDO
+        description: Chave estrangeira da localização do cliente.
+        
+      - name: FK_ID_CARTAO_DE_CREDITO
+        description: Chave estrangeira do cartão usado.
+        
+      - name: DATA_PEDIDO
+        description: Data do pedido.
+        
+      - name: DATA_ENVIO_PEDIDO
+        description: Data do envio.
+
+      - name: QTD_PEDIDA
+        description: Quantidade pedida do produto.
+
+      - name: VALOR_UNIDADE_PEDIDA
+        description: Valor da unidade pedida do produto.
+
+      - name: DESCONTO_UNIDADE_PEDIDA
+        description: Desconto do pedido para o produto.
+
+      - name: total_bruto
+        description: Total bruto do pedido do produto.
+
+      - name: total_liquido
+        description: Total liquido do produto depois de eliminar os descontos
+
+      - name: frete_rateado
+        description: Valor do frete para o envio do produto.
+
+      - name: taxas_rateadas
+        description: valor das taxas para o pedido do produto.
+
+      - name: teve_desconto
+        description: medida booleana para saber se teve ou não desconto.
+
+      - name: STATUS_PEDIDO
+        description: Status do pedido.
+
