@@ -12,10 +12,8 @@ with
         ,cast(orderdate as date) as data_pedido
         ,cast(shipdate as date) as data_envio_pedido
         ,cast(status as int) as status_pedido
-        ,cast(subtotal as float) as sub_total_pedido
         ,cast(taxamt as float) as total_taxas_pedido
         ,cast(freight as float) as frete
-        ,cast(totaldue as float) as valor_total_pedido
         from fonte_PedidoVendas
 
     )
