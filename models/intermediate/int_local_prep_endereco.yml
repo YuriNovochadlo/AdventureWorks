@@ -1,5 +1,5 @@
 models:
-  - name: int_produtos__prep_endereco
+  - name: int_local__prep_endereco
     description: Modelo enriquece os dados de endereço com estado e país.
     columns:
       - name: PK_ID_ENDERECO
